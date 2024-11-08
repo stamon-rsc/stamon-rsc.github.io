@@ -4,5 +4,6 @@
     "author": "CLimber-Rong",
     "author-email": "woshiquxiangrong@outlook.com",
     "short-description": "a tiny package of enum",
-    "url": "CLimber-Rong.github.io"
+    "url": "CLimber-Rong.github.io",
+    "download-list": ["enum.st", "README.md", "LICENSE"]
 }
