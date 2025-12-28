@@ -108,7 +108,7 @@ def generate_index_html(directory, root_dir):
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>下载Stamon - {html.escape(rel_path if rel_path else '根目录')}</title>
     <!-- 引入 Font Awesome 5 CDN[citation:2] -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         * {{
             margin: 0;
