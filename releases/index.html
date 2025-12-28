@@ -1,199 +1,303 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="zh-CN">
 <head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>README</title>
-  <style>
-    html {
-      color: #1a1a1a;
-      background-color: #fdfdfd;
-    }
-    body {
-      margin: 0 auto;
-      max-width: 36em;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      hyphens: auto;
-      overflow-wrap: break-word;
-      text-rendering: optimizeLegibility;
-      font-kerning: normal;
-    }
-    @media (max-width: 600px) {
-      body {
-        font-size: 0.9em;
-        padding: 12px;
-      }
-      h1 {
-        font-size: 1.8em;
-      }
-    }
-    @media print {
-      html {
-        background-color: white;
-      }
-      body {
-        background-color: transparent;
-        color: black;
-        font-size: 12pt;
-      }
-      p, h2, h3 {
-        orphans: 3;
-        widows: 3;
-      }
-      h2, h3, h4 {
-        page-break-after: avoid;
-      }
-    }
-    p {
-      margin: 1em 0;
-    }
-    a {
-      color: #1a1a1a;
-    }
-    a:visited {
-      color: #1a1a1a;
-    }
-    img {
-      max-width: 100%;
-    }
-    svg {
-      height: auto;
-      max-width: 100%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1.4em;
-    }
-    h5, h6 {
-      font-size: 1em;
-      font-style: italic;
-    }
-    h6 {
-      font-weight: normal;
-    }
-    ol, ul {
-      padding-left: 1.7em;
-      margin-top: 1em;
-    }
-    li > ol, li > ul {
-      margin-top: 0;
-    }
-    blockquote {
-      margin: 1em 0 1em 1.7em;
-      padding-left: 1em;
-      border-left: 2px solid #e6e6e6;
-      color: #606060;
-    }
-    code {
-      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
-      font-size: 85%;
-      margin: 0;
-      hyphens: manual;
-    }
-    pre {
-      margin: 1em 0;
-      overflow: auto;
-    }
-    pre code {
-      padding: 0;
-      overflow: visible;
-      overflow-wrap: normal;
-    }
-    .sourceCode {
-     background-color: transparent;
-     overflow: visible;
-    }
-    hr {
-      border: none;
-      border-top: 1px solid #1a1a1a;
-      height: 1px;
-      margin: 1em 0;
-    }
-    table {
-      margin: 1em 0;
-      border-collapse: collapse;
-      width: 100%;
-      overflow-x: auto;
-      display: block;
-      font-variant-numeric: lining-nums tabular-nums;
-    }
-    table caption {
-      margin-bottom: 0.75em;
-    }
-    tbody {
-      margin-top: 0.5em;
-      border-top: 1px solid #1a1a1a;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    th {
-      border-top: 1px solid #1a1a1a;
-      padding: 0.25em 0.5em 0.25em 0.5em;
-    }
-    td {
-      padding: 0.125em 0.5em 0.25em 0.5em;
-    }
-    header {
-      margin-bottom: 4em;
-      text-align: center;
-    }
-    #TOC li {
-      list-style: none;
-    }
-    #TOC ul {
-      padding-left: 1.3em;
-    }
-    #TOC > ul {
-      padding-left: 0;
-    }
-    #TOC a:not(:hover) {
-      text-decoration: none;
-    }
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
-       override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>下载Stamon - 根目录</title>
+    <!-- 引入 Font Awesome 5 CDN[citation:2] -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #2c3e50, #4a6491);
+            color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .nav-bar {
+            background: #34495e;
+            padding: 0.8rem 1.5rem;
+            border-radius: 6px;
+            margin-bottom: 1rem;
+        }
+        
+        .nav-bar a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .nav-bar a:hover {
+            color: #3498db;
+            text-decoration: underline;
+        }
+        
+        .current-path {
+            background: white;
+            padding: 1rem;
+            border-radius: 6px;
+            margin: 1rem 0;
+            border-left: 4px solid #3498db;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        
+        .file-list {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        
+        .list-header {
+            display: grid;
+            grid-template-columns: 3fr 1fr 1fr;
+            background: #ecf0f1;
+            padding: 1rem;
+            font-weight: 600;
+            color: #2c3e50;
+            border-bottom: 2px solid #bdc3c7;
+        }
+        
+        .list-item {
+            display: grid;
+            grid-template-columns: 3fr 1fr 1fr;
+            padding: 1rem;
+            border-bottom: 1px solid #eee;
+            text-decoration: none;
+            color: inherit;
+            transition: background 0.2s;
+        }
+        
+        .list-item:hover {
+            background: #f8f9fa;
+        }
+        
+        .list-item:last-child {
+            border-bottom: none;
+        }
+        
+        .item-name {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .icon {
+            font-size: 1.2em;
+            width: 20px;
+            text-align: center;
+        }
+        
+        footer {
+            margin-top: 2rem;
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+            padding: 1rem;
+        }
+        
+        @media (max-width: 768px) {
+            .list-header, .list-item {
+                grid-template-columns: 2fr 1fr;
+            }
+            .modified-time {
+                display: none;
+            }
+        }
+    </style>
 </head>
 <body>
-<h1 id="stamon镜像">Stamon镜像</h1>
-<p>目前存放的镜像版本有：</p>
-<ul>
-<li>2.2.9</li>
-<li>2.2.10</li>
-<li>2.4.4</li>
-<li>2.4.5</li>
-<li>2.4.6</li>
-<li>2.4.7</li>
-<li>2.4.8</li>
-<li>2.4.19</li>
-<li>2.4.20</li>
-<li>2.4.25</li>
-<li>2.4.28</li>
-<li>2.4.29</li>
-<li>2.4.31</li>
-<li>2.4.36</li>
-<li>2.4.40</li>
-<li>2.4.45</li>
-<li>2.4.47</li>
-<li>2.4.49</li>
-</ul>
-<p>相应的文件被存储在<code>stamon-rsc.github.io/releases/版本号/文件名</code>中。</p>
-<p>本镜像站无法与Github Releases完全同步，因此请以<a
-href="https://github.com/CLimber-Rong/stamon/releases">Github
-Releases</a>为最终镜像来源。</p>
+    <header>
+        <h1><i class="fas fa-folder-tree"></i> 下载Stamon</h1>
+    </header>
+    
+    <div class="nav-bar">
+        <a href="https://stamon-rsc.github.io/releases/index.html"><i class="fas fa-home"></i> 回到首页</a>
+        
+        
+    </div>
+    
+    <div class="current-path">
+        <strong><i class="fas fa-folder-open"></i> 当前路径:</strong> /
+    </div>
+    
+    <div class="file-list">
+        <div class="list-header">
+            <div>名称</div>
+            <div>大小</div>
+            <div class="modified-time">修改时间</div>
+        </div>
+        
+        
+        
+        <a href="2.2.10/index.html" class="list-item">
+            <div class="item-name">
+                <span class="icon"><i class="fas fa-folder"></i></span>
+                2.2.10/
+            </div>
+            <div><span style='color:#27ae60;'>目录</span></div>
+            <div class="modified-time">2025-12-25 00:15</div>
+        </a>
+        <a href="2.2.9/index.html" class="list-item">
+            <div class="item-name">
+                <span class="icon"><i class="fas fa-folder"></i></span>
+                2.2.9/
+            </div>
+            <div><span style='color:#27ae60;'>目录</span></div>
+            <div class="modified-time">2025-12-25 00:15</div>
+        </a>
+        <a href="2.4.19/index.html" class="list-item">
+            <div class="item-name">
+                <span class="icon"><i class="fas fa-folder"></i></span>
+                2.4.19/
+            </div>
+            <div><span style='color:#27ae60;'>目录</span></div>
+            <div class="modified-time">2025-12-25 00:15</div>
+        </a>
+        <a href="2.4.20/index.html" class="list-item">
+            <div class="item-name">
+                <span class="icon"><i class="fas fa-folder"></i></span>
+                2.4.20/
+            </div>
+            <div><span style='color:#27ae60;'>目录</span></div>
+            <div class="modified-time">2025-12-25 00:15</div>
+        </a>
+        <a href="2.4.25/index.html" class="list-item">
+            <div class="item-name">
+                <span class="icon"><i class="fas fa-folder"></i></span>
+                2.4.25/
+            </div>
+            <div><span style='color:#27ae60;'>目录</span></div>
+            <div class="modified-time">2025-12-25 00:15</div>
+        </a>
+        <a href="2.4.28/index.html" class="list-item">
+            <div class="item-name">
+                <span class="icon"><i class="fas fa-folder"></i></span>
+                2.4.28/
+            </div>
+            <div><span style='color:#27ae60;'>目录</span></div>
+            <div class="modified-time">2025-12-25 00:15</div>
+        </a>
+        <a href="2.4.29/index.html" class="list-item">
+            <div class="item-name">
+                <span class="icon"><i class="fas fa-folder"></i></span>
+                2.4.29/
+            </div>
+            <div><span style='color:#27ae60;'>目录</span></div>
+            <div class="modified-time">2025-12-25 00:15</div>
+        </a>
+        <a href="2.4.31/index.html" class="list-item">
+            <div class="item-name">
+                <span class="icon"><i class="fas fa-folder"></i></span>
+                2.4.31/
+            </div>
+            <div><span style='color:#27ae60;'>目录</span></div>
+            <div class="modified-time">2025-12-25 00:15</div>
+        </a>
+        <a href="2.4.36/index.html" class="list-item">
+            <div class="item-name">
+                <span class="icon"><i class="fas fa-folder"></i></span>
+                2.4.36/
+            </div>
+            <div><span style='color:#27ae60;'>目录</span></div>
+            <div class="modified-time">2025-12-25 00:15</div>
+        </a>
+        <a href="2.4.4/index.html" class="list-item">
+            <div class="item-name">
+                <span class="icon"><i class="fas fa-folder"></i></span>
+                2.4.4/
+            </div>
+            <div><span style='color:#27ae60;'>目录</span></div>
+            <div class="modified-time">2025-12-25 00:15</div>
+        </a>
+        <a href="2.4.40/index.html" class="list-item">
+            <div class="item-name">
+                <span class="icon"><i class="fas fa-folder"></i></span>
+                2.4.40/
+            </div>
+            <div><span style='color:#27ae60;'>目录</span></div>
+            <div class="modified-time">2025-12-25 00:15</div>
+        </a>
+        <a href="2.4.45/index.html" class="list-item">
+            <div class="item-name">
+                <span class="icon"><i class="fas fa-folder"></i></span>
+                2.4.45/
+            </div>
+            <div><span style='color:#27ae60;'>目录</span></div>
+            <div class="modified-time">2025-12-25 00:15</div>
+        </a>
+        <a href="2.4.47/index.html" class="list-item">
+            <div class="item-name">
+                <span class="icon"><i class="fas fa-folder"></i></span>
+                2.4.47/
+            </div>
+            <div><span style='color:#27ae60;'>目录</span></div>
+            <div class="modified-time">2025-12-25 00:15</div>
+        </a>
+        <a href="2.4.49/index.html" class="list-item">
+            <div class="item-name">
+                <span class="icon"><i class="fas fa-folder"></i></span>
+                2.4.49/
+            </div>
+            <div><span style='color:#27ae60;'>目录</span></div>
+            <div class="modified-time">2025-12-25 00:15</div>
+        </a>
+        <a href="2.4.5/index.html" class="list-item">
+            <div class="item-name">
+                <span class="icon"><i class="fas fa-folder"></i></span>
+                2.4.5/
+            </div>
+            <div><span style='color:#27ae60;'>目录</span></div>
+            <div class="modified-time">2025-12-25 00:15</div>
+        </a>
+        <a href="2.4.6/index.html" class="list-item">
+            <div class="item-name">
+                <span class="icon"><i class="fas fa-folder"></i></span>
+                2.4.6/
+            </div>
+            <div><span style='color:#27ae60;'>目录</span></div>
+            <div class="modified-time">2025-12-25 00:15</div>
+        </a>
+        <a href="2.4.7/index.html" class="list-item">
+            <div class="item-name">
+                <span class="icon"><i class="fas fa-folder"></i></span>
+                2.4.7/
+            </div>
+            <div><span style='color:#27ae60;'>目录</span></div>
+            <div class="modified-time">2025-12-25 00:15</div>
+        </a>
+        <a href="2.4.8/index.html" class="list-item">
+            <div class="item-name">
+                <span class="icon"><i class="fas fa-folder"></i></span>
+                2.4.8/
+            </div>
+            <div><span style='color:#27ae60;'>目录</span></div>
+            <div class="modified-time">2025-12-25 00:15</div>
+        </a>
+    </div>
+    
+    <footer>
+        <p><i class="far fa-clock"></i> 最后生成时间: 2025-12-28 18:29:40</p>
+        <p><i class="fas fa-list-ol"></i> 共 18 个项目</p>
+    </footer>
 </body>
 </html>
